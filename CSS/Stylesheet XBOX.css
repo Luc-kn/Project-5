@@ -28,8 +28,22 @@
 }
 
 #main {
+    
     padding-top: 6.75%;
-    background-color: var(--aColor1);
-    color: var(--aColor4);
+    background-color: #BCD3F2;
+    color: var(--aColor4);  
+}
+
+#main   .colomn {
+
+        float: left;
+        width: 50%;
+    }
+#main   .row:after {
+        content: "";
+        display: table;
+        clear: both;
+  
+
 }
 
