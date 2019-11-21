@@ -1,33 +1,57 @@
 :root {
-    --aColor1: #E6E1C5;
-    --aColor2: #D4CB92;
-    --aColor3: #395C6B;
+    --aColor1: #000000;
+    --aColor2: #8f8963aa;
+    --aColor3: #084058;
     --aColor4: #80A4ED;
-    --aColor5: #BCD3F2;
+    --aColor5: #767a7e;
+}
+
+body {
+    background-image: url("../Afbeeldingen/homepage_background.png");
+    background-attachment: fixed;
 }
 
 #navbar {
+    margin-left: unset;
+    margin-right: unset;
     width: 100%;
-    height: 13.5%;
+    height: auto;
     position: fixed;
     text-align: center;
     background-color: var(--aColor4);
+    z-index: 5;
 }
 
 #navbar a {
-    height: 100%;
+    position: relative;
     color: var(--aColor1);
+}
+
+#navbar:hover {
+    
 }
 
 #navbar a:hover {
-    color: var(--aColor1);
+    color: var(--aColor4);
+    background-color: var(--aColor3);
+    font-size: 125%;
 }
 
 #navbar #selected {
-    background-color: var(--aColor3)
+    color: var(--aColor4);
+    background-color: var(--aColor3);
 }
 
 #main {
-    background-color: var(--aColor1);
-    color: var(--aColor4);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 6.75%;
+    background-color: var(--aColor2);
+    color: var(--aColor1);
+}
+
+
+
+div .row.justify-content-left {
+    margin-left: 5%
 }
