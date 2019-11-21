@@ -9,7 +9,8 @@ and open the template in the editor.
 */
 body{
     background-image: url("pic.jpg");
-     background-size: 1600px 800px;
+     background-size: 1550px 800px;
+     max-width: 80%;
 }
 :root {
     --aColor1: #E6E1C5;
@@ -42,7 +43,10 @@ body{
 }
 
 #main {
-    margin-TOP: 12%;
     background-color: var(--aColor1);
     color: var(--aColor4);
+}
+#text{
+ position: relative;
+ margin-top: 25%;
 }
