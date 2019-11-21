@@ -11,6 +11,13 @@ body{
     background-image: url("pic.jpg");
      background-size: 1600px 800px;
 }
+:root {
+    --aColor1: #E6E1C5;
+    --aColor2: #D4CB92;
+    --aColor3: #395C6B;
+    --aColor4: #80A4ED;
+    --aColor5: #BCD3F2;
+}
 
 #navbar {
     width: 100%;
