@@ -12,6 +12,7 @@
     position: fixed;
     text-align: center;
     background-color: var(--aColor4);
+    z-index: 2;
 }
 
 #navbar a {
@@ -30,30 +31,39 @@
 #main {
     
     padding-top: 10%;
-    background-color: #BCD3F2;
+    padding-left: -30%;
     color: var(--aColor4);  
 }
 
 .flex-container {
     display: flex;
+    margin-left: -70%;
     flex-direction: row;
   }
 #flex1 {padding:0%;}
 .flex-container > div {
     background-color: #f1f1f1;
+    opacity: 0.5;
     padding: 20px;
     font-size: 30px;
 }
 
 .flex-container #column1 {
-padding: 30%;
-width: 20%;
+padding: 20%;
+Width: 200px;
 }
  
+.flex-container #column2 {
+padding: 60%;
+width: 200px;
+}
 
-
-
-
+body{
+background-image: url("../Afbeeldingen/Background-minecraft-XBOX.png");
+background-repeat: no-repeat;
+background-size: 130%;
+background-attachment: fixed;
+}
 
 
 #main   .row:after {
