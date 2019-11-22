@@ -37,21 +37,6 @@
     color: var(--aColor4);  
 }
 
-.flex-container {
-    display: flex;
-    margin-left: -70%;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-.flex-container > div {
-    background-color: #f1f1f1;
-    opacity: 0.5;
-    padding: 20px;
-    font-size: 30px;
-    
-}
-
 body{
 background-image: url("../Afbeeldingen/Minecraft-background-gif2.gif");
 background-repeat: no-repeat;
@@ -69,7 +54,7 @@ background-attachment: fixed;
 }
 
 .container{
-background-color: rgb(172, 181, 185);
+background-color: rgba(172, 181, 185, 0.658);
 
 }
 
