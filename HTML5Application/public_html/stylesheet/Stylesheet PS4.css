@@ -8,9 +8,14 @@ and open the template in the editor.
     Author     : knopp
 */
 body{
-    background-image: url("tree.gif");
+    background-image: url("minecraft.jpg");
      background-size: 1550px 800px;
      max-width: 80%;
+}
+.box {
+  border: 1px solid green ;
+  background-color: #FFFFFF88;
+  
 }
 :root {
     --aColor1: #E6E1C5;
@@ -52,6 +57,8 @@ body{
 }
 .container {
   position: relative;
+  float: right;
+  
 }
 .text-block {
   position: absolute;
