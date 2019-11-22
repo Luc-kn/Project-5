@@ -7,6 +7,8 @@
 }
 
 #navbar {
+    margin-left: 0%;
+    margin-right: 0%;
     width: 100%;
     height: 13.5%;
     position: fixed;
@@ -40,7 +42,7 @@
     margin-left: -70%;
     flex-direction: row;
   }
-#flex1 {padding:0%;}
+
 .flex-container > div {
     background-color: #f1f1f1;
     opacity: 0.5;
@@ -48,18 +50,8 @@
     font-size: 30px;
 }
 
-.flex-container #column1 {
-padding: 20%;
-Width: 200px;
-}
- 
-.flex-container #column2 {
-padding: 60%;
-width: 200px;
-}
-
 body{
-background-image: url("../Afbeeldingen/Background-minecraft-XBOX.png");
+background-image: url("../Afbeeldingen/Minecraft-background-gif2.gif");
 background-repeat: no-repeat;
 background-size: 130%;
 background-attachment: fixed;
