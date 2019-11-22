@@ -41,6 +41,7 @@
     display: flex;
     margin-left: -70%;
     flex-direction: row;
+    justify-content: center;
   }
 
 .flex-container > div {
@@ -48,6 +49,7 @@
     opacity: 0.5;
     padding: 20px;
     font-size: 30px;
+    
 }
 
 body{
@@ -66,3 +68,11 @@ background-attachment: fixed;
 
 }
 
+.container{
+background-color: rgb(172, 181, 185);
+
+}
+
+.col-sm{
+    opacity: 1;
+}
