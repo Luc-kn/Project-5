@@ -9,6 +9,8 @@
 #navbar {
     width: 100%;
     height: 13.5%;
+    margin-left: 0%;
+    margin-right: 0%;
     position: fixed;
     text-align: center;
     background-color: var(--aColor4);
@@ -27,8 +29,23 @@
     background-color: var(--aColor3)
 }
 
-#main {
+#Titel {
     padding-top: 6.75%;
     background-color: var(--aColor1);
     color: var(--aColor4);
 }
+
+/*Styling voor de div MinecraftRelease*/
+#MinecraftRelease {
+    text-align: center; /*Om de text in het midden van het scherm te krijgen.*/
+}
+
+/*Styling voor de div LijstOntwikkelingsfase*/
+#LijstOntwikkelingsfase {
+    list-style-type: none;
+    text-align: center; /*Om de text in het midden van het scherm te krijgen.*/
+}
+
+/*Styling voor de hr's*/
+
+
