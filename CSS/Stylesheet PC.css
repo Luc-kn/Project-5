@@ -46,6 +46,31 @@
     text-align: center; /*Om de text in het midden van het scherm te krijgen.*/
 }
 
-/*Styling voor de hr's*/
+/*Styling voor de div UitlegTeaserAfbeelding*/
+#UitlegTeaserAfbeelding {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
 
+/*Styling voor de div MinecraftTeaserAfbeelding*/
+#MinecraftTeaserAfbeelding {
+    text-align: center;
+}
 
+/*Styling voor de div MinecraftGameplay*/
+#MinecraftGameplay {
+    text-align: center; /*Om de text in het midden van ht scherm te krijgen.*/
+}
+
+/*Styling voor de div UitlegGameplayAfbeelding*/
+#UitlegGameplayAfbeelding {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/*Styling voor de div MinecraftGameplayAfbeelding*/
+#MinecraftGameplayAfbeelding {
+    text-align: center;
+}
