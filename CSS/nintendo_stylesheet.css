@@ -1,7 +1,7 @@
 :root {
-    --MenubalkKleur:    #ff0000; /*Light blue*/
+    --MenubalkKleur:    #f20000; /*Light blue*/
     --MenuTekstKleur:   #ffffff;
-    --AchtergrondKleur: #8f8963aa;
+    --AchtergrondKleur: #8f896355;
     --aColor1:          #000000;
     --aColor5:          #767a7e;
 }
@@ -40,7 +40,7 @@ body {
     font-size: 125%;
 }
 
-.selected a {
+#selected a {
     padding: 2.3% 2.3%;
     color: var(--MenubalkKleur);
     background-color: var(--MenuTekstKleur);
@@ -54,7 +54,7 @@ body {
     background-color: var(--AchtergrondKleur);
     color: var(--aColor1);
 }
-/*
+
 .row.justify-content-left {
     margin-left: 5%
 }
@@ -63,4 +63,4 @@ body {
     
     max-height:2%;
     overflow: auto;
-}*/
+}
