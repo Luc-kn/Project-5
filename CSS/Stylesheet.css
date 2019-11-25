@@ -1,8 +1,9 @@
+/*refference colors*/
 :root {
     --MenubalkKleur:    #80A4ED;    /*Light blue. mainbar background color, selected text color*/
     --MenuTekstKleur:   #084058;    /*dark blue. mainbar text color, selected background color*/
     --AchtergrondKleur: #8f896355;  /*broun-ish. text space background*/
-    --aColor1:          #000000;    /*full black. main text color*/
+    --MainTextKleur:    #000000;    /*full black. main text color*/
     --aColor5:          #767a7e;    /**/
 }
 /*de achtergrond van de volledige pagina*/
@@ -50,7 +51,7 @@ body {
     margin-right: 10%;
     padding-top: 6.75%;
     background-color: var(--AchtergrondKleur);
-    color: var(--aColor1);
+    color: var(--MainTextKleur);
 }
 /*logo padding*/
 #navbar img {
