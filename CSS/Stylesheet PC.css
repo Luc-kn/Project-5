@@ -53,9 +53,13 @@ body {
 
 /*Styling voor de div LijstOntwikkelingsfase*/
 #LijstOntwikkelingsfase {
-    list-style-type: none;
     text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
     color: var(--aColor4) /*Kleur voor de tekst van de div LijstOntwikkelingsfase*/
+}
+
+/*Styling voor ul list*/
+ul {
+    list-style-type: none; /*Zorgt ervoor dat de bullets van de list verdwijnen.*/
 }
 
 /*Styling voor de div UitlegTeaserAfbeelding*/
@@ -94,12 +98,9 @@ body {
     color: var(--aColor4) /*Kleur voor de tekst van de div MinecraftReviewsRandom.*/
 }
 
+/*Styling voor de hr's*/
 hr {
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
     border-style: solid;
-    border-width: 10px;
+    border-width: 10px; 
   }
