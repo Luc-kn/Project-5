@@ -23,6 +23,7 @@ body{
     --aColor3: #395C6B;
     --aColor4: #80A4ED;
     --aColor5: #BCD3F2;
+    --aColor6: #250392;
 }
 
 #navbar {
@@ -30,12 +31,12 @@ body{
     height: 13.5%;
     position: fixed;
     text-align: center;
-    background-color: var(--aColor4);
+    background-color: var(--aColor6);
     margin-bottom: 10px;
 }
 
 #navbar a {
-    height: 100%;
+    height: 50%;
     color: var(--aColor1);
 }
 
@@ -44,7 +45,7 @@ body{
 }
 
 #navbar #selected {
-    background-color: var(--aColor3)
+    background-color: var(--aColor4)
 }
 
 #main {
@@ -53,7 +54,7 @@ body{
 }
 #text{
  position: relative;
- margin-top: 25%;
+ margin-top: 10%;
 }
 .container {
   position: relative;
