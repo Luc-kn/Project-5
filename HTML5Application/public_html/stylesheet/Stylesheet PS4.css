@@ -11,6 +11,7 @@ body{
     background-image: url("minecraft.jpg");
      background-size: 1550px 800px;
      max-width: 80%;
+     background-repeat: no-repeat;
 }
 .box {
   border: 1px solid green ;
@@ -27,7 +28,7 @@ body{
 }
 
 #navbar {
-    width: 100%;
+    width: 102%;
     height: 13.5%;
     position: fixed;
     text-align: center;
@@ -54,11 +55,11 @@ body{
 }
 #text{
  position: relative;
- margin-top: 10%;
+ margin-top: 8%;
 }
 .container {
   position: relative;
-  float: right;
+  
   
 }
 .text-block {
