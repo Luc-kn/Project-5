@@ -71,10 +71,9 @@ background-color: var(--aColor4);
 }
 
 .zoom {
-transition: .2s;
-
-margin: 0 auto;
-}
+    transition: .2s;
+    margin: 0 auto;
+    }
 
 .zoom:hover {
     -ms-transform: scale(1.5); /* IE 9 */
