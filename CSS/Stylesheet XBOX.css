@@ -17,6 +17,11 @@
     z-index: 2;
 }
 
+#navbar img {
+padding-left: 5%;
+padding-right: 5%;
+}
+
 #navbar a {
     height: 100%;
     color: var(--aColor1);
