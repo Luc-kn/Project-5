@@ -1,9 +1,9 @@
 :root {
-    --MenubalkKleur:    #80A4ED;    /*Light blue. mainbar background color, selected text color*/
-    --MenuTekstKleur:   #084058;    /*dark blue. mainbar text color, selected background color*/
-    --AchtergrondKleur: #8f8963aa;  /*broun-ish. text space background*/
-    --aColor1:          #000000;    /*full black. main text color*/
-    --aColor5:          #767a7e;    /**/
+    --MenubalkKleur:    #ff0000; /*Light blue*/
+    --MenuTekstKleur:   #ffffff;
+    --AchtergrondKleur: #8f8963aa;
+    --aColor1:          #000000;
+    --aColor5:          #767a7e;
 }
 
 body {
