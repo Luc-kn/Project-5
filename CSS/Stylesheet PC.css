@@ -1,49 +1,61 @@
+/*Kleuren voor de PC pagina over Minecraft*/
 :root {
-    --aColor1: #E6E1C5;
-    --aColor2: #D4CB92;
-    --aColor3: #395C6B;
-    --aColor4: #80A4ED;
-    --aColor5: #BCD3F2;
+    --aColor1: #FFFFFF; /*Wit*/
+    --aColor2: #587958; /*Donker groen neigend naar grijs.*/
+    --aColor3: #4b8c4c; /*Lichter groen.*/
+    --aColor4: #000000; /*Zwart*/
 }
 
+/*Styling voor de navbar*/
 #navbar {
     width: 100%;
     height: 13.5%;
     margin-left: 0%;
     margin-right: 0%;
     position: fixed;
-    text-align: center;
-    background-color: var(--aColor4);
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
+    background-color: var(--aColor3); /*Kleur voor de achtergrond van de navbar*/
 }
 
+/*Styling voor de navbar*/
 #navbar a {
     height: 100%;
-    color: var(--aColor1);
+    color: var(--aColor1); /*Kleur voor de tekst in de navbar*/
 }
 
+/*Styling voor de navbar*/
 #navbar a:hover {
-    color: var(--aColor1);
+    color: var(--aColor1); /*Kleur voor de tekst in de navbar*/
 }
 
+/*Styling voor de navbar*/
 #navbar #selected {
-    background-color: var(--aColor3)
+    background-color: var(--aColor2) /*Achtergrond voor de geselecteerde pagina.*/
 }
 
+/*Styling voor de div Titel*/
 #Titel {
     padding-top: 6.75%;
-    background-color: var(--aColor1);
-    color: var(--aColor4);
+    color: var(--aColor4); /*Kleur voor de tekst in de div titel.*/ 
+    background-image: linear-gradient(to bottom, #09b01f, #389e3b, #4b8c4c, #587958, #626662); /*achtergrond voor de div Titel (bestaat uit meerdere kleuren.*/
+}
+
+/*Styling voor het body element*/
+body {
+    background-image: linear-gradient(to bottom, #646464, #717171, #7f7f7f, #8d8d8d, #9b9b9b); /*achtergrond voor de body (bestaat uit meerdere kleuren.*/
 }
 
 /*Styling voor de div MinecraftRelease*/
 #MinecraftRelease {
-    text-align: center; /*Om de text in het midden van het scherm te krijgen.*/
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
+    color: var(--aColor4) /*Kleur voor de tekst van de div MinecraftRelease.*/
 }
 
 /*Styling voor de div LijstOntwikkelingsfase*/
 #LijstOntwikkelingsfase {
     list-style-type: none;
-    text-align: center; /*Om de text in het midden van het scherm te krijgen.*/
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
+    color: var(--aColor4) /*Kleur voor de tekst van de div LijstOntwikkelingsfase*/
 }
 
 /*Styling voor de div UitlegTeaserAfbeelding*/
@@ -55,27 +67,39 @@
 
 /*Styling voor de div MinecraftTeaserAfbeelding*/
 #MinecraftTeaserAfbeelding {
-    text-align: center;
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
 }
 
 /*Styling voor de div MinecraftGameplay*/
 #MinecraftGameplay {
-    text-align: center; /*Om de text in het midden van ht scherm te krijgen.*/
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
+    color: var(--aColor4) /*Kleur voor de tekst van de div MinecraftGameplay.*/
 }
 
 /*Styling voor de div UitlegGameplayAfbeelding*/
 #UitlegGameplayAfbeelding {
-    text-align: center;
-    font-style: italic;
-    font-size: 12px;
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
+    font-style: italic; /*Om de tekst een bepaalde vorm te geven.*/
+    font-size: 12px; /*Om de tekst een bepaalde grootte te geven.*/
 }
 
 /*Styling voor de div MinecraftGameplayAfbeelding*/
 #MinecraftGameplayAfbeelding {
-    text-align: center;
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
 }
 
 /*Styling over de div MinecraftReviewsRandom*/
 #MinecraftReviewsRandom {
-    text-align: center;
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
+    color: var(--aColor4) /*Kleur voor de tekst van de div MinecraftReviewsRandom.*/
 }
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 10px;
+  }
