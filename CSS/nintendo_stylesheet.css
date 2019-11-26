@@ -2,14 +2,15 @@
 :root {
     --MenubalkKleur:    #f20000; /*rood*/
     --MenuTekstKleur:   #ffffff;
-    --AchtergrondKleur: #8f896355;
-    --MainTextKleur:    #000000;
+    --AchtergrondKleur: #ffff6633;
+    --MainTextKleur:    #999999;
     --aColor5:          #767a7e;
 }
 /*de achtergrond van de volledige pagina*/
 body {
     background-image: url("../Afbeeldingen/homepage_background.png");
     background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*het veld van de navigatiebalk*/
 #navbar {
@@ -59,4 +60,10 @@ body {
 #navbar img {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
