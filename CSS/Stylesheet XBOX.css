@@ -71,6 +71,13 @@ width: auto;
 
 }
 
+.container2{
+    background-image: linear-gradient(to bottom, var(--aColor4), #6b886b, #699269, #729c72,  #85aa85);
+    width: auto;
+}
+
+
+
 .col-sm{
     opacity: 1;
 }
@@ -85,4 +92,14 @@ width: auto;
     -ms-transform: scale(2); /* IE 9 */
     -webkit-transform: scale(2); /* Safari 3-8 */
     transform: scale(2);
+}
+
+
+.box{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+      
+
 }
