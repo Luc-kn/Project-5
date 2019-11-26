@@ -1,0 +1,63 @@
+:root {
+    --aColor1: #E6E1C5;
+    --aColor2: #D4CB92;
+    --aColor3: #395C6B;
+    --aColor4: #80A4ED;
+    --aColor5: #BCD3F2;
+}
+
+#navbar {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: 13.5%;
+    position: fixed;
+    text-align: center;
+    background-color: var(--aColor4);
+    z-index: 2;
+}
+
+#navbar a {
+    height: 100%;
+    color: var(--aColor1);
+}
+
+#navbar a:hover {
+    color: var(--aColor1);
+}
+
+#navbar #selected {
+    background-color: var(--aColor3)
+}
+
+#main {
+    
+    padding-top: 10%;
+    padding-left: -30%;
+    color: var(--aColor4);  
+}
+
+body{
+background-image: url("../Afbeeldingen/Minecraft-background-gif2.gif");
+background-repeat: no-repeat;
+background-size: 130%;
+background-attachment: fixed;
+}
+
+
+#main   .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        
+
+}
+
+.container{
+background-color: rgba(172, 181, 185, 0.658);
+
+}
+
+.col-sm{
+    opacity: 1;
+}

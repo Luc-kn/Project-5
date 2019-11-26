@@ -1,0 +1,59 @@
+:root {
+    --MenubalkKleur:    #80A4ED;    /*Light blue. mainbar background color, selected text color*/
+    --MenuTekstKleur:   #084058;    /*dark blue. mainbar text color, selected background color*/
+    --AchtergrondKleur: #8f896355;  /*broun-ish. text space background*/
+    --aColor1:          #000000;    /*full black. main text color*/
+    --aColor5:          #767a7e;    /**/
+}
+/*de achtergrond van de volledige pagina*/
+body {
+    background-image: url("../Afbeeldingen/homepage_background.png");
+    background-attachment: fixed;
+}
+/*het veld van de navigatiebalk*/
+#navbar {
+    margin-left: unset;
+    margin-right: unset;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    text-align: center;
+    background-color: var(--MenubalkKleur);
+    z-index: 5;
+ }
+/*alle A elementen in de navigatie balk*/
+#navbar div a {
+    max-width: 100%;
+    position: relative;
+    text-decoration: none;
+    float: center ;
+    display: block;
+    color: var(--MenuTekstKleur);
+}
+/*als je over een A element in de Navbar hovert*/
+#navbar div a:hover {
+    padding: 2.3% 2.3%;
+    color: var(--MenubalkKleur);
+    background-color: var(--MenuTekstKleur);
+    font-size: 125%;
+}
+/*dit geeft aan op welke pagina je zit*/
+#navbar div a.selected {
+    padding: 2.3% 2.3%;
+    color: var(--MenubalkKleur);
+    background-color: var(--MenuTekstKleur);
+    font-size: 125%;
+}
+/*dit is de rest van de pagina dat NIET in de navbar staat*/
+#main {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 6.75%;
+    background-color: var(--AchtergrondKleur);
+    color: var(--aColor1);
+}
+/*logo padding*/
+#navbar img {
+    padding-left: 5%;
+    padding-right: 5%;
+}
