@@ -1,47 +1,68 @@
 :root {
     --aColor1: #E6E1C5;
     --aColor2: #D4CB92;
-    --aColor3: #395C6B;
-    --aColor4: #80A4ED;
-    --aColor5: #BCD3F2;
+    --aColor3: rgb(39, 182, 3);
+    --aColor4: rgb(76, 90, 76);
+}
+
+.clearer{
+    clear: both;
 }
 
 #navbar {
     margin-left: 0%;
     margin-right: 0%;
     width: 100%;
-    height: 13.5%;
+    height: 10%;
     position: fixed;
     text-align: center;
     background-color: var(--aColor4);
     z-index: 2;
 }
 
-#navbar a {
-    height: 100%;
+#navbar div img {
+padding-left: 5%;
+padding-right: 5%;
+}
+
+#navbar div a {
+    max-width: 100%;
+    position: relative;
+    text-decoration: none;
+    float: center ;
+    display: block;
     color: var(--aColor1);
 }
 
-#navbar a:hover {
-    color: var(--aColor1);
+#navbar div a:hover {
+    padding: 2.3% 2.3%;
+    color: var(--aColor4);
+    background-color: var(--aColor3);
+    font-size: 125%;
 }
 
-#navbar #selected {
-    background-color: var(--aColor3)
+#navbar div a.selected {
+    padding: 2.3% 2.3%;
+    color: var(--aColor4);
+    background-color: var(--aColor3);
+    font-size: 125%;
 }
 
 #main {
     
     padding-top: 10%;
     padding-left: -30%;
-    color: var(--aColor4);  
+    color: var(--aColor2);  
 }
 
 body{
-background-image: url("../Afbeeldingen/Minecraft-background-gif2.gif");
-background-repeat: no-repeat;
-background-size: 130%;
+background-image: url("../Afbeeldingen/Hexagon\ background.jpg");       /*Geeft weer welke afbeelding wordt gebruikt als achtergrond*/
+background-repeat: no-repeat;                                           /*Geeft aan dat de afbeelding maar 1 keer mag voorkomen*/
+background-size: 100%;                                                  /*geeft aan hoe groot de afbeelding is*/
 background-attachment: fixed;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        /*Zorgt voor het lettertype*/
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;      /*Zorgt voor de lijnen rond de tekst*/
 }
 
 
@@ -53,11 +74,72 @@ background-attachment: fixed;
 
 }
 
-.container{
-background-color: rgba(172, 181, 185, 0.658);
+.container{                         
+background-color: var(--aColor4);   /*Regelt de kleur van de achtergrond van de container*/
+width: auto;        /*regelt de breedte automatisch*/
 
 }
+
+.container2{                        
+    background-image: linear-gradient(to bottom, var(--aColor4), #6b886b, #699269, #729c72,  #85aa85);  /*regelt de kleur van de container met een overgang*/
+    width: auto;    /*regelt de breedte automatisch*/
+}
+
+
 
 .col-sm{
-    opacity: 1;
+    opacity: 1;         /*regelt de doorzichtigheid*/
 }
+
+.zoom {                 /*regelt de zoom animamatie*/
+    z-index: 4;         /*waarheen*/
+    transition: .2s;    /*bepaald de snelheid*/
+    margin: 0;          
+    }
+
+.zoom:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);    /*algemeen*/
+}
+
+
+
+
+/*test css*/
+
+
+.Image-transformation{
+    position: relative;
+
+}
+
+.Image-transformation img{
+    position: absolute;
+
+}
+
+
+
+.top {
+    animation-name: fade;                           /*Naaam van de animatie*/
+    animation-timing-function: ease-in-out;         /*Beschijft wat de animatie precies moet doen*/
+    animation-iteration-count: infinite;            /*hoevaak de animatie wordt afgespeeld*/
+    animation-duration: 5s;                         /*hoelang de animatie doorgaat*/
+    animation-direction: alternate;                 /*beschrijft het type animatie*/
+  }
+  
+  @keyframes fade {                                 /*bepaald hoelang een afbeelding transparant blijft*/
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
