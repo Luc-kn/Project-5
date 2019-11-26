@@ -1,17 +1,20 @@
+/*refference colors*/
 :root {
     --MenubalkKleur:    #80A4ED;    /*Light blue. mainbar background color, selected text color*/
     --MenuTekstKleur:   #084058;    /*dark blue. mainbar text color, selected background color*/
     --AchtergrondKleur: #8f896355;  /*broun-ish. text space background*/
-    --aColor1:          #000000;    /*full black. main text color*/
+    --MainTextKleur:    #999999;    /*full black. main text color*/
     --aColor5:          #767a7e;    /**/
 }
 /*de achtergrond van de volledige pagina*/
 body {
     background-image: url("../Afbeeldingen/homepage_background.png");
     background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*het veld van de navigatiebalk*/
 #navbar {
+    top: 0;
     margin-left: unset;
     margin-right: unset;
     width: 100%;
@@ -48,12 +51,32 @@ body {
 #main {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 6.75%;
+    margin-top: 2%;
     background-color: var(--AchtergrondKleur);
-    color: var(--aColor1);
+    color: var(--MainTextKleur);
+}
+
+#main .row{
+    padding-top: 5%;
+    border-left: 20px groove var(--MenubalkKleur);
+    border-right: 20px groove var(--MenubalkKleur);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
 }
 /*logo padding*/
 #navbar img {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2.5%;
+}
+
+h3 {
+    padding-left: 5%;
 }

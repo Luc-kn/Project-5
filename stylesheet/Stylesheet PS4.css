@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Nov 2019, 09:16:43
+    Author     : knopp
+*/
+body{
+    background-image: url("../afbeeldingen/minecraft.jpg");
+     background-size: cover;
+     max-width: 80%;
+     background-repeat: no-repeat;
+}
+.box {
+  border: 1px solid green ;
+  background-color: #FFFFFF88;
+  
+}
+:root {
+    --aColor1: #E6E1C5;
+    --aColor2: #D4CB92;
+    --aColor3: #395C6B;
+    --aColor4: #80A4ED;
+    --aColor5: #BCD3F2;
+    --aColor6: #250392;
+}
+
+#navbar {
+    width: 101%;
+    height: 13.5%;
+    position: absolute;
+    text-align: center;
+    background-color: var(--aColor6);
+    margin-bottom: 10px;
+}
+
+#navbar a {
+    height: 50%;
+    color: var(--aColor1);
+}
+
+#navbar a:hover {
+    color: var(--aColor1);
+}
+
+#navbar #selected {
+    background-color: var(--aColor4)
+}
+
+#main {
+    background-color: var(--aColor1);
+    color: var(--aColor4);
+}
+#text{
+ position: relative;
+ margin-top: 8%;
+margin-left: 2%;
+}
+.container {
+  position: relative;
+  
+  
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  align: left;
+}
+.img{
+    margin-top: 15%;
+    position: relative;
+}
+.vid{
+    margin-top: 22%;
+}
