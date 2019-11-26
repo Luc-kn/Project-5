@@ -18,7 +18,7 @@ body {
     margin-left: unset;
     margin-right: unset;
     width: 100%;
-    height: auto;
+    height: 5%;
     position: fixed;
     text-align: center;
     background-color: var(--MenubalkKleur);
