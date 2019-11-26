@@ -1,0 +1,66 @@
+:root {
+    --MenubalkKleur:    #f20000; /*Light blue*/
+    --MenuTekstKleur:   #ffffff;
+    --AchtergrondKleur: #8f896355;
+    --aColor1:          #000000;
+    --aColor5:          #767a7e;
+}
+
+body {
+    background-image: url("../Afbeeldingen/homepage_background.png");
+    background-attachment: fixed;
+}
+
+#navbar {
+    margin-left: unset;
+    margin-right: unset;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    text-align: center;
+    background-color: var(--MenubalkKleur);
+    z-index: 5;
+ }
+
+#navbar a {
+    max-width: 100%;
+    overflow: auto;
+    position: relative;
+    text-decoration: none;
+    float: center ;
+    display: block;
+    text-decoration: none;
+    color: var(--MenuTekstKleur);
+}
+
+#navbar a:hover {
+    padding: 2.3% 2.3%;
+    color: var(--MenubalkKleur);
+    background-color: var(--MenuTekstKleur);
+    font-size: 125%;
+}
+
+#selected a {
+    padding: 2.3% 2.3%;
+    color: var(--MenubalkKleur);
+    background-color: var(--MenuTekstKleur);
+    font-size: 125%;
+}
+
+#main {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 6.75%;
+    background-color: var(--AchtergrondKleur);
+    color: var(--aColor1);
+}
+
+.row.justify-content-left {
+    margin-left: 5%
+}
+
+.row.justify-content-left div img {
+    
+    max-height:2%;
+    overflow: auto;
+}
