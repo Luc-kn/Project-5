@@ -14,23 +14,33 @@
     margin-right: 0%;
     position: fixed;
     text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
-    background-color: var(--aColor3); /*Kleur voor de achtergrond van de navbar*/
+    background-color: var(--aColor3); /*Kleur voor de achtergrond van de navbar.*/
 }
 
 /*Styling voor de navbar*/
-#navbar a {
-    height: 100%;
-    color: var(--aColor1); /*Kleur voor de tekst in de navbar*/
+#navbar div a {
+    max-width: 100%;
+    position: relative;
+    text-decoration: none;
+    float: center ;
+    display: block;
+    color: var(--aColor1);
 }
 
 /*Styling voor de navbar*/
-#navbar a:hover {
-    color: var(--aColor1); /*Kleur voor de tekst in de navbar*/
+#navbar div a:hover {
+    color: var(--aColor1); /*Kleur voor de tekst in de navbar.*/
+    background-color: var(--aColor2); /*Achtergrondkleur.*/
+    padding: 2.3% 2.3%; /*Om de afstand van de tekst en de pagina te vergroten.*/
+    font-size: 125%; /*Om de tekst te vergroten.*/
 }
 
 /*Styling voor de navbar*/
-#navbar #selected {
-    background-color: var(--aColor2) /*Achtergrond voor de geselecteerde pagina.*/
+#navbar div a.selected {
+    color:  var(--aColor1); /*Kleur voor de tekst in de navbar.*/
+    background-color: var(--aColor2); /*Achtergrond voor de geselecteerde pagina.*/
+    padding: 2.3% 2.3%; /*Om de afstand van de tekst en de pagina te vergroten.*/
+    font-size: 125%; /*Om de tekst te vergroten.*/
 }
 
 /*Styling voor de div Titel*/
