@@ -92,10 +92,10 @@ ul {
     text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
 }
 
-/*Styling over de div MinecraftReviewsRandom*/
-#MinecraftReviewsRandom {
+/*Styling voor de div MinecraftReviewsRandom*/
+#MinecraftReviewsTitel {
     text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
-    color: var(--aColor4) /*Kleur voor de tekst van de div MinecraftReviewsRandom.*/
+    color: var(--aColor4) /*Kleur voor de tekst van de div MinecraftReviewsTitel.*/
 }
 
 /*Styling voor de hr's*/
@@ -104,3 +104,13 @@ hr {
     border-style: solid;
     border-width: 10px; 
   }
+ /*Styling voor de div MinecraftReviewsRandom.*/
+#MinecraftReviewsRandom {
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
+    color: var(--aColor4) /*Kleur voor de tekst van de div MinecraftReviewsRandom.*/
+}
+
+#MinecraftReviewsGroep {
+    text-align: center; /*Om de tekst in het midden van het scherm te krijgen.*/
+    color: var(--aColor4) /*Kleur voor de tekst van de div MinecraftReviewsGroep.*/
+}
