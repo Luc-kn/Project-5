@@ -1,66 +1,94 @@
+/*refference colors*/
 :root {
-    --MenubalkKleur:    #f20000; /*Light blue*/
+    --MenubalkKleur:    #f20000; /*rood*/
     --MenuTekstKleur:   #ffffff;
-    --AchtergrondKleur: #8f896355;
-    --aColor1:          #000000;
+    --AchtergrondKleur: #ffff6633;
+    --MainTextKleur:    #999999;
     --aColor5:          #767a7e;
 }
-
+/*de achtergrond van de volledige pagina*/
 body {
     background-image: url("../Afbeeldingen/homepage_background.png");
     background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-#navbar {
+/*het veld van de navigatiebalk*/
+.navbar {
+    top: 0;
     margin-left: unset;
     margin-right: unset;
     width: 100%;
-    height: auto;
+    height: 5%;
     position: fixed;
     text-align: center;
     background-color: var(--MenubalkKleur);
     z-index: 5;
  }
-
-#navbar a {
+/*alle A elementen in de navigatie balk*/
+.navbar div a {
     max-width: 100%;
-    overflow: auto;
-    position: relative;
     text-decoration: none;
     float: center ;
     display: block;
     text-decoration: none;
     color: var(--MenuTekstKleur);
 }
-
-#navbar a:hover {
+/*als je over een A element in de Navbar hovert*/
+.navbar div a:hover {
     padding: 2.3% 2.3%;
     color: var(--MenubalkKleur);
     background-color: var(--MenuTekstKleur);
     font-size: 125%;
 }
-
-#selected a {
+/*dit geeft aan op welke pagina je zit*/
+.navbar div a.selected {
     padding: 2.3% 2.3%;
     color: var(--MenubalkKleur);
     background-color: var(--MenuTekstKleur);
     font-size: 125%;
 }
-
+/*dit is de rest van de pagina dat NIET in de navbar staat*/
 #main {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 6.75%;
+    margin-top: 2%;
     background-color: var(--AchtergrondKleur);
-    color: var(--aColor1);
+    color: var(--MainTextKleur);
 }
 
-.row.justify-content-left {
-    margin-left: 5%
+#main .row{
+    padding-top: 5%;
+    border-left: 20px groove var(--MenubalkKleur);
+    border-right: 20px groove var(--MenubalkKleur);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+/*logo padding*/
+#navbar img {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.row.justify-content-left div img {
-    
-    max-height:2%;
-    overflow: auto;
+.recentie_kader {
+    background-color: var(--AchtergrondKleur);
+    margin-top: 2.5%;
+    border: 10px groove var(--MenubalkKleur);
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.recentie_kader h2 {
+    margin-left: 2%;
+}
+.recentie_kader .aanrader {
+    padding-bottom: 1%;
+    color: greenyellow;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
