@@ -3,7 +3,7 @@
     --MenubalkKleur:    #80A4ED;    /*Light blue. mainbar background color, selected text color*/
     --MenuTekstKleur:   #084058;    /*dark blue. mainbar text color, selected background color*/
     --AchtergrondKleur: #8f896355;  /*broun-ish. text space background*/
-    --MainTextKleur:    #000000;    /*full black. main text color*/
+    --MainTextKleur:    #999999;    /*full black. main text color*/
     --aColor5:          #767a7e;    /**/
 }
 /*de achtergrond van de volledige pagina*/
@@ -58,4 +58,10 @@ body {
 #navbar img {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }

@@ -26,8 +26,6 @@ body {
 /*alle A elementen in de navigatie balk*/
 #navbar div a {
     max-width: 100%;
-    overflow: auto;
-    position: relative;
     text-decoration: none;
     float: center ;
     display: block;
