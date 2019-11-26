@@ -3,7 +3,6 @@
     --aColor2: #D4CB92;
     --aColor3: rgb(39, 182, 3);
     --aColor4: rgb(76, 90, 76);
-    --aColor5: #BCD3F2;
 }
 
 .clearer{
@@ -93,3 +92,44 @@ width: auto;        /*regelt de breedte automatisch*/
     -webkit-transform: scale(2); /* Safari 3-8 */
     transform: scale(2);    /*algemeen*/
 }
+
+
+
+
+/*test css*/
+
+
+.Image-transformation{
+    position: relative;
+
+}
+
+.Image-transformation img{
+    position: absolute;
+
+}
+
+
+
+.top {
+    animation-name: fade;                           /*Naaam van de animatie*/
+    animation-timing-function: ease-in-out;         /*Beschijft wat de animatie precies moet doen*/
+    animation-iteration-count: infinite;            /*hoevaak de animatie wordt afgespeeld*/
+    animation-duration: 5s;                         /*hoelang de animatie doorgaat*/
+    animation-direction: alternate;                 /*beschrijft het type animatie*/
+  }
+  
+  @keyframes fade {                                 /*bepaald hoelang een afbeelding transparant blijft*/
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
