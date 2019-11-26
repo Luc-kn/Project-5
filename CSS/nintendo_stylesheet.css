@@ -13,18 +13,19 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*het veld van de navigatiebalk*/
-#navbar {
+.navbar {
+    top: 0;
     margin-left: unset;
     margin-right: unset;
     width: 100%;
-    height: auto;
+    height: 5%;
     position: fixed;
     text-align: center;
     background-color: var(--MenubalkKleur);
     z-index: 5;
  }
 /*alle A elementen in de navigatie balk*/
-#navbar div a {
+.navbar div a {
     max-width: 100%;
     text-decoration: none;
     float: center ;
@@ -33,14 +34,14 @@ body {
     color: var(--MenuTekstKleur);
 }
 /*als je over een A element in de Navbar hovert*/
-#navbar div a:hover {
+.navbar div a:hover {
     padding: 2.3% 2.3%;
     color: var(--MenubalkKleur);
     background-color: var(--MenuTekstKleur);
     font-size: 125%;
 }
 /*dit geeft aan op welke pagina je zit*/
-#navbar div a.selected {
+.navbar div a.selected {
     padding: 2.3% 2.3%;
     color: var(--MenubalkKleur);
     background-color: var(--MenuTekstKleur);
@@ -50,14 +51,40 @@ body {
 #main {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 6.75%;
+    margin-top: 2%;
     background-color: var(--AchtergrondKleur);
     color: var(--MainTextKleur);
+}
+
+#main .row{
+    padding-top: 5%;
+    border-left: 20px groove var(--MenubalkKleur);
+    border-right: 20px groove var(--MenubalkKleur);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
 }
 /*logo padding*/
 #navbar img {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.recentie_kader {
+    background-color: var(--AchtergrondKleur);
+    margin-top: 2.5%;
+    border: 10px groove var(--MenubalkKleur);
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.recentie_kader h2 {
+    margin-left: 2%;
+}
+.recentie_kader .aanrader {
+    padding-bottom: 1%;
+    color: greenyellow;
 }
 
 p {
