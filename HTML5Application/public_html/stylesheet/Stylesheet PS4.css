@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : knopp
 */
 body{
-    background-image: url("minecraft.jpg");
+    background-image: url("../afbeeldingen/minecraft.jpg");
      background-size: cover;
      max-width: 80%;
      background-repeat: no-repeat;
