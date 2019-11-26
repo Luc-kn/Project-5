@@ -20,22 +20,32 @@
     z-index: 2;
 }
 
-#navbar img {
+#navbar div img {
 padding-left: 5%;
 padding-right: 5%;
 }
 
-#navbar a {
-    height: 100%;
+#navbar div a {
+    max-width: 100%;
+    position: relative;
+    text-decoration: none;
+    float: center ;
+    display: block;
     color: var(--aColor1);
 }
 
-#navbar a:hover {
-    color: var(--aColor1);
+#navbar div a:hover {
+    padding: 2.3% 2.3%;
+    color: var(--aColor4);
+    background-color: var(--aColor3);
+    font-size: 125%;
 }
 
-#navbar #selected {
-    background-color: var(--aColor3)
+#navbar div a.selected {
+    padding: 2.3% 2.3%;
+    color: var(--aColor4);
+    background-color: var(--aColor3);
+    font-size: 125%;
 }
 
 #main {
