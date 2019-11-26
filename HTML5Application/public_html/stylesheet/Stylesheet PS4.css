@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 body{
     background-image: url("minecraft.jpg");
-     background-size: 100%;
+     background-size: cover;
      max-width: 80%;
      background-repeat: no-repeat;
 }
@@ -28,9 +28,9 @@ body{
 }
 
 #navbar {
-    width: 102%;
+    width: 101%;
     height: 13.5%;
-    position: fixed;
+    position: absolute;
     text-align: center;
     background-color: var(--aColor6);
     margin-bottom: 10px;
@@ -56,6 +56,7 @@ body{
 #text{
  position: relative;
  margin-top: 8%;
+margin-left: 2%;
 }
 .container {
   position: relative;
@@ -71,4 +72,11 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   align: left;
+}
+.img{
+    margin-top: 15%;
+    position: relative;
+}
+.vid{
+    margin-top: 22%;
 }
