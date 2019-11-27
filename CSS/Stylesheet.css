@@ -70,13 +70,13 @@ body {
     padding-left: 5%;
     padding-right: 5%;
 }
-
+/*padding voor alle normale paragraven*/
 p {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2.5%;
 }
-
-h3 {
+/*padding voor de Heads*/
+h3, h2, h1 {
     padding-left: 5%;
 }

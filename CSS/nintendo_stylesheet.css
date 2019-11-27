@@ -1,10 +1,10 @@
 /*refference colors*/
 :root {
-    --MenubalkKleur:    #f20000; /*rood*/
-    --MenuTekstKleur:   #ffffff;
-    --AchtergrondKleur: #ffff6633;
-    --MainTextKleur:    #999999;
-    --aColor5:          #767a7e;
+    --MenubalkKleur:    #f20000;    /*rood*/
+    --MenuTekstKleur:   #ffffff;    /*wit*/
+    --AchtergrondKleur: #ffff6633;  /*bruinig en doorzichtig*/
+    --MainTextKleur:    #999999;    /*lichter grijzig*/
+    --aColor5:          #767a7e;    /*donkerder grijzig*/
 }
 /*de achtergrond van de volledige pagina*/
 body {
@@ -55,7 +55,7 @@ body {
     background-color: var(--AchtergrondKleur);
     color: var(--MainTextKleur);
 }
-
+/*opmaak per "row" van content*/
 #main .row{
     padding-top: 5%;
     border-left: 20px groove var(--MenubalkKleur);
@@ -70,7 +70,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
 }
-
+/*de opmaak van ieder blokje met referenties*/
 .recentie_kader {
     background-color: var(--AchtergrondKleur);
     margin-top: 2.5%;
@@ -78,15 +78,16 @@ body {
     border-radius: 5%;
     padding: 1%;
 }
-
+/*de titel van de referentie*/
 .recentie_kader h2 {
     margin-left: 2%;
 }
+/*kleurt het aangerade deel van de referentie groen*/
 .recentie_kader .aanrader {
     padding-bottom: 1%;
     color: greenyellow;
 }
-
+/*de paragraven in het referentie kader*/
 p {
     padding-left: 5%;
     padding-right: 5%;
